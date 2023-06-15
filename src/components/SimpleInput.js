@@ -1,6 +1,12 @@
 import { useState } from "react";
 const SimpleInput = (props) => {
-  useState('')
+  const [enteredNam, setEnterdName] = useState('');
+  const nameInputChangeHandler = (event) => {
+    setEnterdName(event.target.value);
+  }
+  const formSubmitHandler = (event) => {
+
+  }
 
   return (
     <form>
