@@ -1,4 +1,7 @@
+import { useState } from "react";
 const SimpleInput = (props) => {
+  useState('')
+
   return (
     <form>
       <div className='form-control'>
